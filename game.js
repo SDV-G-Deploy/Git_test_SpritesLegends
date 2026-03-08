@@ -50,7 +50,7 @@ const HEROES = [
   {
     id: "gnome",
     name: "Гном-факельщик",
-    sprite: "../SPRITES/Sprite_006_gnome_full.png",
+    sprite: "./SPRITES/Sprite_006_gnome_full.png",
     maxHp: 124,
     attackMin: 12,
     attackMax: 18,
@@ -62,7 +62,7 @@ const HEROES = [
   {
     id: "mage",
     name: "Тайный маг",
-    sprite: "../SPRITES/Sprite_011_mage_full.png",
+    sprite: "./SPRITES/Sprite_011_mage_full.png",
     maxHp: 106,
     attackMin: 11,
     attackMax: 17,
@@ -74,7 +74,7 @@ const HEROES = [
   {
     id: "gipsy",
     name: "Гадалка сфер",
-    sprite: "../SPRITES/Sprite_012_gipsy_full.png",
+    sprite: "./SPRITES/Sprite_012_gipsy_full.png",
     maxHp: 114,
     attackMin: 11,
     attackMax: 16,
@@ -86,7 +86,7 @@ const HEROES = [
   {
     id: "bard",
     name: "Бард-дуэлянт",
-    sprite: "../SPRITES/Sprite_014_bard_full.png",
+    sprite: "./SPRITES/Sprite_014_bard_full.png",
     maxHp: 112,
     attackMin: 10,
     attackMax: 15,
@@ -101,35 +101,35 @@ const ENEMY_ARCHETYPES = {
   goblin: {
     id: "goblin",
     name: "Гоблин-мародер",
-    sprite: "../SPRITES/Sprite_009_goblin_full.png",
+    sprite: "./SPRITES/Sprite_009_goblin_full.png",
     baseHp: 88,
     movePattern: ["goblin_slash", "goblin_dirt", "goblin_flurry"]
   },
   werewolf: {
     id: "werewolf",
     name: "Оборотень",
-    sprite: "../SPRITES/Sprite_010_werewolf_full.png",
+    sprite: "./SPRITES/Sprite_010_werewolf_full.png",
     baseHp: 118,
     movePattern: ["wolf_claw", "wolf_rend", "wolf_howl", "wolf_claw"]
   },
   golem: {
     id: "golem",
     name: "Кристальный голем",
-    sprite: "../SPRITES/Sprite_007_golem_full.png",
+    sprite: "./SPRITES/Sprite_007_golem_full.png",
     baseHp: 146,
     movePattern: ["golem_slam", "golem_guard", "golem_quake"]
   },
   hex_warden: {
     id: "hex_warden",
     name: "Проклятый гекс-страж",
-    sprite: "../SPRITES/Sprite_011_mage_full.png",
+    sprite: "./SPRITES/Sprite_011_mage_full.png",
     baseHp: 126,
     movePattern: ["hex_jab", "rune_sunder", "warding_veil", "soul_tithe"]
   },
   dragon: {
     id: "dragon",
     name: "Древний дракон",
-    sprite: "../SPRITES/Sprite_005_dragon_full.png",
+    sprite: "./SPRITES/Sprite_005_dragon_full.png",
     baseHp: 208,
     movePattern: ["dragon_flame", "dragon_tail", "dragon_charge", "dragon_flame"]
   }
@@ -2464,6 +2464,7 @@ function init() {
 }
 
 init();
+
 
 
 
